@@ -1,14 +1,13 @@
 const mongoose = require('mongoose')
 
 const commentSchema = new mongoose.Schema({
-  body: {
+  text: {
     type: String,
     required: true
   },
   owner: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'User',
-    required: true
+    id: String,
+    email: String
   }
 }, {
   timestamps: true

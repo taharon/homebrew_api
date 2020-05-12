@@ -21,7 +21,7 @@ const brewSchema = new mongoose.Schema({
   boil: {
     type: Array
   },
-  post: {
+  postBoil: {
     type: Array
   },
   tastingNotes: String,
