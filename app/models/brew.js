@@ -6,24 +6,25 @@ const brewSchema = new mongoose.Schema({
     type: String,
     required: true
   },
+  dateStarted: String,
   style: {
-    type: String,
-    required: true
+    beerStyle: String,
+    amount: String
   },
-  owner: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'User',
-    required: true
-  },
+  owner: String,
+  email: String,
   steep: {
     type: Array
   },
+  boilTime: String,
   boil: {
     type: Array
   },
   postBoil: {
     type: Array
   },
+  primary: String,
+  secondary: String,
   tastingNotes: String,
   // pictures: [picture.schema],
   comments: [comment.schema]
