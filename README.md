@@ -45,7 +45,7 @@
 
 ## ERD
 
-  ![Initial ERD](https://i.imgur.com/FM8DvoQ.png)
+  [Initial ERD](https://i.imgur.com/FM8DvoQ.png)
 
 ## API End Points
 
